@@ -1,0 +1,20 @@
+<div id="chapter">
+<form>
+<select name="chapter" ng-model="option" ng-change="changePg(option)">
+	<option ng-repeat="x in chap" value="{{x.value}}">{{x.name}}</option>
+</select>
+</form>
+</div>
+
+<div id="section">
+<form>
+<select name="selection2" ng-model="optionSub" ng-change="changeSubPg(optionSub)">
+	<option ng-repeat="x in chap2" value="{{x.value}}">{{x.name}}</option>
+</select>
+</form>
+</div>
+
+<b class="title">Chapter 2:</b>
+<br>
+<br>
+<b class="title">Heroes</b>
